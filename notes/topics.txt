@@ -1,0 +1,42 @@
+Basic fundamentals
+UI/UX figma
+HTML 
+ --- Introduction
+ --- Heading, paragraphs
+ --- Anchor , img
+ --- formatting tags
+ --- lists
+ --- tables
+ --- semantic , block vs inline
+ --- forms (inputs.validation)
+ --- media
+ --- HTML5
+ 
+   Forms is used to collect user's data /information from the data
+   eg., login , registration , address , forgot password, application forms, feedback , contact, survey forms
+
+   forms uses ' form ' elements to include all forms i/p.
+   input boxes /fields are created using input tag. it is self closing tag
+   every i/p tag has some properties
+   i) type: it is used to define different types of i/p 
+   eg., text , number
+
+   2) placeholder
+
+3)  id: to uniquely identify i/p , we use id...we can also use label tag for labelling & connect label's for with i/p s id \
+   so that label can activate input
+   eq: <label for="inp1">name:</label>
+       <input type='text" id="inp1"> type="password"
+       <button>submit</button>
+
+       4) name : name is used to store the value with certain name while sending it to another file (form submit)
+       
+       5) value : every value user enters in i/p is stored as value.we can enter a prefilled value on our own
+
+Forms 
+<form action='main java'
+Input type='text'  
+Input type='email' id='em' name='ema'
+input type='password' 
+
+<label for='inp' Username: >

@@ -1,0 +1,14 @@
+HTML (Hyper Text Markup Language):
+HTML is usedfor the structure/skeleton of a web page. HTML started by Tim Berner's Lee
+GML ---> SGML ---> HTML . Current version of HTML is HTML5
+HTML consists of tags. tags are represented in two ways 
+i) open tag (<tagname>) 
+ii) close tag (</tagname>) 
+Eg., <Human></Human>
+Whole HTML code is between HTML open & close tags. HTML contains 2 elements such as head & body.Head also contains Title
+we can generate basic template using emmets such as ! + enter (or) html:5 + enter
+<!--  --> for adding comments
+gap on left of each line elements in html code is for indentation for readability
+
+Task1 : write a comment stating it is your 1st html , create html temple with proper 
+indentation , given proper Title and print in body , hello world

@@ -1,0 +1,47 @@
+Headings are used to implement important words or main feature of certain context 
+HTML provides 6 headings from h1 to h6
+the main differences between headings are size & importance
+    <h1> Hello headings </h1>
+    <h2> Hello headings </h2>
+    <h3> Hello headings </h3>
+    <h4> Hello headings </h4>
+    <h5> Hello headings </h5>
+    <h6> Hello headings </h6>
+paragraph : to write/diplay paragraph in html , we use - p tag
+lorem is an emmets to generate dummy paragraph
+
+<a> </a> - Anchor tag
+target = _blank --- > to open web page in new tage
+formatting tag 
+
+Anchor tag : anchor tag is used to link other web pages/other resources. we have a property/attribute to 
+give the link as 'href'
+we use a tag fog this .to open a new tag we can use 'target' attribute with "_blank" value
+
+eg: <a href="link"> text </a>  -- web page link
+<a href="file path" download>text</a>
+you can also use mailto & tel for different protocols
+
+Image tag : img : image can be inserted 
+<img src="path" alt="text">
+img is a self closing tag .. unpaired tags
+src attribute contains path , when src failed to load the image , alt text will print
+we can adjust the height & width of the image
+
+Formatting tags:
+these tags are used to format the text. 
+
+1) b - used to make the text bold
+2) strong - used to make the text bold but search engines gives more importance to it than b tag
+3) i - used to make the text Italic
+4) em - used to make the text Italic but search engines gives more importance to it than i  
+5) u - used to make the text underlined
+6) del - used to make the text strike out (according to search engive its deleted)
+7) ins - used to make the text inserted according to the searrch engine but it appears as underlined
+8) sup - used to write super script
+9) sub - used to write subscript
+10) br - used to break the line 
+11) hr - used to make the horizontal line
+12) mark -- used to mark/highlight the text
+13) pre - used to write pre-formatted text
+14) code -- used to write codes

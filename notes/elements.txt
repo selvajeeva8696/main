@@ -1,0 +1,14 @@
+elements are nothing but contents with tags. tags can be open or close
+there are two types of elements 
+i) inline : inline elements allows next elements to beside them eg : Anchor, img, formatting
+ii) block : block elements doesnt allow any elements to beside them. they always comes in new line
+eg : headings , paragraphs , lists , tables  , semantic elements
+general block elements is -- div 
+general inline element is -- span
+
+make an image & anchor tag & make them come in different lines using block/inline general elements***
+
+semantic elements : thre are some elements which are used to make search engine unserstands our code easily. 
+eg; header , main , footer , nav,aside,section ,article,figure but ni impact to the using
+
+eg; header --> main ---> footer

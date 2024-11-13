@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diff inputs</title>
+</head>
+<body>
+   <form action="test.java"> 
+       <div>
+         <label for="fn">First name:</label>
+         <input type="text" name="fname" id="fn">
+         <label for="ln">Last name:</label>
+         <input type="text" name="lname" id="ln">
+       </div><br>
+       <div>
+        <label for="em">Email:</label>
+        <input type="text" name="em" id="em">
+       </div><br>
+       <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+       </div><br>
+       <div>
+        <label for="mobno">Mobile number:</label>
+        <input type="number" name="mobno" id="mobno">
+       </div><br>
+       <div>
+        <label for="colour">Choose a colour</label>
+        <input type="color" name="colour" id="colour">
+       </div><br>
+       <div>
+        <label for="slot">Preferred timeslot</label>
+        <input type="datetime-local" name="slot" id="slot">
+       </div><br>
+       <div>
+        <label for="pic">Upload profile</label>
+        <input type="file" name="pic" id="pic">
+       </div><br>
+       <div>
+        <label for=""></label>
+        <input type="hidden" name="Batch" value="10">   
+       </div><br>
+       <div>
+        <label for=""></label>
+        <input type="month" name="" id="">   
+       </div><br>
+       <div>
+        <label for=""></label>
+        <input type="week" name="" id="">   
+       </div><br>
+       <div>
+        <label for=""></label>
+        <input type="url" name="" id="">   
+       </div><br>
+       <div>
+        <label for=""></label>
+        <input type="tel" name="" id="">   
+       </div><br>
+         <!-- Radio buttons - all radio buttons of same purpose shud have same name-->
+       <div> 
+        <p>Select Gender:</p>
+        <input type="radio" name="gender" id="m">
+        <label for="m">male</label>
+        <input type="radio" name="gender" id="f">
+        <label for="f">female</label>
+      </div><br>
+      <div> 
+        <p>Select College:</p>
+        <input type="radio" name="college" id="m">
+        <label for="m">MPC</label>
+        <input type="radio" name="college" id="b">
+        <label for="b">BIPC</label>
+        <input type="radio" name="college" id="me">
+        <label for="me">MEC</label>
+        <div> <br>
+            <!--checkboxes-->
+         <div> 
+              <p>Choose languages known:</p>
+                <input type="checkbox" name="lang" id="en">
+                <label for="en">English</label>
+                <input type="checkbox" name="lang" id="ta">
+                <label for="ta">Tamil</label>
+                <input type="checkbox" name="lang" id="kn">
+                <label for="kn">Kannada</label>
+                <input type="checkbox" name="lang" id="tl">
+                <label for="tl">Telugu</label>
+                <input type="checkbox" name="lang" id="sp">
+                <label for="sp">Spanish</label>
+                <div> <br>
+      <button>Submit</button>
+      <input type="button" value="submit">
+      <input type="submit" value="">
+      <input type="reset" value="reset">
+     
+   </form>
+</body>
+</html>

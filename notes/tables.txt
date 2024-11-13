@@ -1,0 +1,4 @@
+tables tag: 
+<table> </table>
+you can have attributes for table such as border , cellspacing & 
+cellpadding

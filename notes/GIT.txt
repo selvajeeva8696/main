@@ -1,0 +1,26 @@
+Git : Git is a distributed version control system.. it is an application by oracle which needs to be download & installed
+
+
+git version : git -v    
+
+
+steps : 
+1. git init 
+2. git add .
+3. git commit -m "first checkout"
+
+for fisrt time users
+
+git config --global user.name "githubUsername"
+git config --global user.email "githubEmail"
+
+Till now , local repository is created
+we need one platform t osave ,share & run our code .. options like github , gitlab, bitbucket etc., 
+
+github is an online repository mgmt system used to sahve , shre & run our code
+
+github commands
+
+1) git remote & origin 'link'
+
+2) git push -u origin main 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced forms</title>
+</head>
+<body>
+    <!-- dropdowns-->
+     <select name="Cars" value="Cars"> 
+        <option value="B">BMW</option>
+        <option value="T">Toyota</option>
+        <option value="M">Mazda</option>
+        <option value="H">Honda</option>
+        <option value="A">AUDI</option>
+     </select>
+
+     <label for="brn">Choose the branch</label>
+     <select name="Branches" id="brn"> 
+        <option value="B">EEE</option>
+        <option value="T">ECE</option>
+        <option value="M">Mech</option>
+        <option value="H">CSE</option>
+        <option value="A">Civil</option>
+     </select><br><br>
+     
+     <select name="Branches" id="brn" multiple> 
+        <option value="B">--Select--</option>
+        <optgroup label="Engineering">
+        <option value="T">ECE</option>
+        <option value="M">Mech</option>
+        <option value="H">CSE</option>
+        <option value="A">Civil</option>
+        <option value="E">EEE</option>
+        </optgroup>
+        <optgroup label="Degree">
+            <option value="MCA">MCA</option>
+            <option value="MAT">BSC maths</option>
+            <option value="com">Bcom</option>
+            <option value="bed">BEd</option>
+            <option value="ca">CA</option>   
+        </optgroup>
+        </select>
+            <form action="main.java"> 
+                <input type="text" name="un"
+                id="un" placeholder="Enter username" required><br><br>
+
+                <input type="email" name="em"
+                id="em" placeholder="Enter email"  randomly><br><br>
+
+                <input type="number" name="age"
+                id="age" placeholder="Enter Age" min="18" max="20" randomly><br><br>
+
+                <input type="password" name="pwd"
+                id="pwd" placeholder="Enter password" minlength="8"><br><br>
+
+            </form>
+
+        <button>Submit</button>
+</body>
+</html>

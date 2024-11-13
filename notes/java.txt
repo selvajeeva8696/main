@@ -1,0 +1,6 @@
+How to use the value which is returned from a method?
+we can use the value which is returned from a method in below mentioned ways
+--> WE can store that value in a variable
+--> We can directly print that value in syso()
+--> We can use that value in some arithmetic operations
+--> We can paass that value as a return value to another method
